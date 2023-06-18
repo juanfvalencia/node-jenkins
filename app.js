@@ -9,7 +9,6 @@ app.use(cors({
     origin: '*'
 }))
 
-
 const proyecto = require('./routes/proyecto')
 
 // middlewares
