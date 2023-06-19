@@ -15,7 +15,7 @@ services:
   
   balanceador-carga:
     container_name: balanceador-carga
-    image: balanceador-carga:v1
+    image: balanceador-carga:latest
     build:
       context: ./balanceador
     ports: 
